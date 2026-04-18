@@ -54,6 +54,7 @@ st.markdown(
         border-radius: 10px;
     }
 
+
     /* Clip cards */
     .clip-card {
         background: rgba(255,255,255,0.08);
@@ -69,6 +70,22 @@ st.markdown(
         background: rgba(255,255,255,0.2);
     }
     
+
+    /* Button */
+.stButton>button {
+    background: linear-gradient(90deg, #6366f1, #a855f7);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-weight: 600;
+    border: none;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+}
+
+
     /* Smaller video */
 video {
     border-radius: 10px;
@@ -131,11 +148,14 @@ st.markdown('<div class="main-title">ClipForge 🎬 Viral Video Repurposing Engi
 st.markdown('<div class="description">Turn long mentorship sessions into viral short clips with captions — instantly!</div>', unsafe_allow_html=True)
 
 # Upload section
-uploaded_file = st.file_uploader("🎥 Upload your video", type=["mp4", "mov", "avi"])
+uploaded_file = st.file_uploader("Upload your video", type=["mp4", "mov", "avi"])
+generate = st.button("✨ Generate Clips")
+
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Processing
-if uploaded_file:
-    with st.spinner("Processing video... ⏳"):
+if uploaded_file and generate:
+    with st.spinner("Analyzing video... ⏳"):
         files = {"file": uploaded_file}
         response = requests.post("http://localhost:8000/upload/", files=files)
 
@@ -145,12 +165,14 @@ if uploaded_file:
         if "error" in data:
             st.error(data["error"])
         else:
+            st.success("Clips generated successfully 🎉")
+            
             if len(data["output"]) == 0:
                 st.warning("No clips found 😢")
             else:
                 # ✅ Centered Title
                 st.markdown(
-                    "<h2 style='text-align:center; margin-top:40px;'>🎬 Your Viral Clips</h2>",
+                    "<h2 style='text-align:center; margin-top:40px;'>🔥 Your Viral Clips</h2>",
                     unsafe_allow_html=True
                 )
 

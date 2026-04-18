@@ -31,22 +31,22 @@ Perfect for:
 ## 🎬 Demo Video
 
 <p align="center">
-  <a href="assets/demovideo.mp4">
+  <a href="assets/demo.mp4">
     <img src="assets/screenshots/demo-thumbnail.png" width="700"/>
   </a>
 </p>
 
-<p align="center"><b>▶️ Click to watch demo</b></p>
+<p align="center"><b>▶️ Click the image to watch the demo</b></p>
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Home Interface
-![Home UI](assets/screenshots/homepage.png)
+![Home UI](assets/screenshots/home.png)
 
 ### 🎬 Generated Viral Clips
-![Clip UI](assets/screenshots/Clip.png)
+![Clip UI](assets/screenshots/clip.png)
 
 ---
 
