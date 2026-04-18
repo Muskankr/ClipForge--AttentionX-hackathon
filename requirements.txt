@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+moviepy
+librosa
+numpy
+streamlit
+python-multipart
