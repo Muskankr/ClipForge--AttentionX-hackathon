@@ -31,7 +31,7 @@ Perfect for:
 ## 🎬 Demo Video
 
 <p align="center">
-  <a href="assets/demo.mp4">
+  <a href="assets/screenshots/demo.mp4">
     <img src="assets/screenshots/demo-thumbnail.png" width="700"/>
   </a>
 </p>
