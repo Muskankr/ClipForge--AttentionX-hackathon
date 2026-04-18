@@ -29,11 +29,14 @@ Perfect for:
 ---
 
 ## 🎬 Demo Video
-> ⚡ Watch how ClipForge turns long videos into viral clips in seconds!
 
 <p align="center">
-  <video src="assets/demovideo.mp4" controls width="600"></video>
+  <a href="assets/demovideo.mp4">
+    <img src="assets/screenshots/demo-thumbnail.png" width="700"/>
+  </a>
 </p>
+
+<p align="center"><b>▶️ Click to watch demo</b></p>
 
 ---
 
