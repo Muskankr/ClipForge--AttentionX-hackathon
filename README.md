@@ -46,7 +46,7 @@ Perfect for:
 ![Home UI](assets/screenshots/home.png)
 
 ### 🎬 Generated Viral Clips
-![Clip UI](assets/screenshots/clip.png)
+![Clip UI](assets/screenshots/Clip.png)
 
 ---
 
