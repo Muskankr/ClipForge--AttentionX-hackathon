@@ -28,13 +28,14 @@ Perfect for:
 
 ---
 
-## 🎬 Demo Video (Mandatory)
+## 🎬 Demo Video
 > ⚡ Watch how ClipForge turns long videos into viral clips in seconds!
 
-![▶️ Watch Demo](assets/demovideo.mp4)
+<p align="center">
+  <video src="assets/demovideo.mp4" controls width="600"></video>
+</p>
 
 ---
-
 
 ## 📸 Screenshots
 
