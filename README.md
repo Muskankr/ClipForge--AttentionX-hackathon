@@ -31,7 +31,7 @@ Perfect for:
 ## 🎬 Demo Video (Mandatory)
 > ⚡ Watch how ClipForge turns long videos into viral clips in seconds!
 
-[![▶️ Watch Demo](assets/demovideo.mp4)]
+![▶️ Watch Demo](assets/demovideo.mp4)
 
 ---
 
@@ -42,7 +42,7 @@ Perfect for:
 ![Home UI](assets/screenshots/homepage.png)
 
 ### 🎬 Generated Viral Clips
-![Clip UI](assets/screenshots/clip.png)
+![Clip UI](assets/screenshots/Clip.png)
 
 ---
 
